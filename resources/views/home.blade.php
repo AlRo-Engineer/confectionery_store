@@ -479,7 +479,7 @@
                                     <div class="step-image mt-4">
                                         <picture>
                                             <img
-                                                src="{{Vite::asset('resources/images/our-process-1-png')}}"
+                                                src="{{Vite::asset('resources/images/our-process-1.png')}}"
                                                 alt="Homeowner Assessment">
                                         </picture>
                                     </div>
@@ -513,7 +513,7 @@
                                     <div class="step-image mt-4">
                                         <picture>
                                             <img
-                                                src="{{Vite::asset('resources/images/our-process-2-png')}}"
+                                                src="{{Vite::asset('resources/images/our-process-2.png')}}"
                                                 alt="Home Energy Audit">
                                         </picture>
                                     </div>
@@ -547,7 +547,7 @@
                                     <div class="step-image mt-4">
                                         <picture>
                                             <img
-                                                src="{{Vite::asset('resources/images/our-process-3-png')}}"
+                                                src="{{Vite::asset('resources/images/our-process-3.png')}}"
                                                 alt="Assessment Review">
                                         </picture>
                                     </div>
@@ -580,7 +580,7 @@
                                     <div class="step-image mt-4">
                                         <picture>
                                             <img
-                                                src="{{Vite::asset('resources/images/our-process-4-png')}}"
+                                                src="{{Vite::asset('resources/images/our-process-4.png')}}"
                                                 alt="Proposal">
                                         </picture>
                                     </div>
@@ -614,7 +614,7 @@
                                     <div class="step-image mt-4">
                                         <picture>
                                             <img
-                                                src="{{Vite::asset('resources/images/our-process-5-png')}}"
+                                                src="{{Vite::asset('resources/images/our-process-5.png')}}"
                                                 alt="Schedule Install">
                                         </picture>
                                     </div>
