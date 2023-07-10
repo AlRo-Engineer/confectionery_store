@@ -62,8 +62,6 @@ $formUniqueID = bin2hex(random_bytes(10));
                             <div class="col-md-12">
                                 <button type="submit" class="btn-nav product-check-btn w-100">
                                     Submit
-                                    <span class="spinner-border spinner-border-sm" role="status"
-                                          aria-hidden="true"></span>
                                 </button>
                             </div>
                         </div>
