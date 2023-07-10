@@ -117,17 +117,4 @@ class OrderController extends Controller
         return view('confirmation', ['order' => $order]);
 
     }
-
-    public function placeOrder(Request $request)
-    {
-
-        $order = new Order;
-        $order->guest_info = $request->guest_info;
-        $order->status = 'processing';
-        $order->save();
-
-        $orderId = $order->id;
-
-        return redirect()->route('confirmation', ['orderId' => $orderId]);
-    }
 }

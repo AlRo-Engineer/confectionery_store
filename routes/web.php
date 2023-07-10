@@ -42,10 +42,7 @@ Route::get('checkout', [OrderController::class, 'showCheckoutForm'])->name('chec
 Route::post('checkout', [OrderController::class, 'checkout'])->name('checkout.process');
 Route::get('order/confirmation/{orderId}', [OrderController::class, 'orderConfirmation'])->name('confirmation');
 
-
 Route::post('checkout/submit', [OrderController::class, 'processCheckout'])->name('order.submit');
-
-Route::post('checkout', [OrderController::class, 'placeOrder'])->name('checkout.placeOrder');
 
 
 
