@@ -9,7 +9,7 @@ class Cart extends Model
 {
     use HasFactory;
 
-    protected $table = 'carts'; // указываем, что модель должна работать с таблицей 'carts'
+    protected $table = 'carts';
 
-    protected $fillable = ['session_id']; // указываем, что поле 'session_id' может быть массово назначено
+    protected $fillable = ['session_id'];
 }

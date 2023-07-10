@@ -101,11 +101,11 @@ class OrderController extends Controller
     {
 
         $order = new Order;
-        $order->guest_info = $request->guest_info; // подставьте реальные данные из запроса
-        $order->status = 'processing'; // или любой другой статус по умолчанию
+        $order->guest_info = $request->guest_info;
+        $order->status = 'processing';
         $order->save();
 
-        $orderId = $order->id; // теперь у нас есть ID созданного заказа
+        $orderId = $order->id;
 
         return redirect()->route('order/confirmation', ['orderId' => $orderId]);
     }
