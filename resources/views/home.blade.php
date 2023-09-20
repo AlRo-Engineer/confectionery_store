@@ -775,7 +775,7 @@
                                    aria-expanded="true"
                                    aria-controls="collapse-1"
                                    aria-label="Read more - Read less button">
-                                    <i class="fas fa-caret-down blue-color"></i>
+                                    <i class="fas fa-caret-down colour-pink"></i>
                                 </a>
                             </div>
                             <div id="collapse-1"
@@ -800,7 +800,7 @@
                                    aria-expanded="false"
                                    aria-controls="heading-3"
                                    aria-label="Read more - Read less button">
-                                    <i class="fas fa-caret-down blue-color"></i>
+                                    <i class="fas fa-caret-down colour-pink"></i>
                                 </a>
                             </div>
                             <div id="collapse-3"
@@ -824,7 +824,7 @@
                                    aria-expanded="false"
                                    aria-controls="heading-5"
                                    aria-label="Read more - Read less button">
-                                    <i class="fas fa-caret-down blue-color"></i>
+                                    <i class="fas fa-caret-down colour-pink"></i>
                                 </a>
                             </div>
                             <div id="collapse-5"
@@ -849,7 +849,7 @@
                                    aria-expanded="false"
                                    aria-controls="heading-6"
                                    aria-label="Read more - Read less button">
-                                    <i class="fas fa-caret-down blue-color"></i>
+                                    <i class="fas fa-caret-down colour-pink"></i>
                                 </a>
                             </div>
                             <div id="collapse-6"

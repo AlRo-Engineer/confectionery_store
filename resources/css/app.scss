@@ -3,85 +3,8 @@
 @import "@fortawesome/fontawesome-free/css/all.min.css";
 
 
-$blue-color: #1AA1ED;
-
-@font-face {
-    font-family: 'Gill Sans';
-    src: url('../fonts/GillSans-Bold.eot');
-    src: url('../fonts/GillSans-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/GillSans-Bold.woff2') format('woff2'),
-    url('../fonts/GillSans-Bold.woff') format('woff'),
-    url('../fonts/GillSans-Bold.ttf') format('truetype'),
-    url('../fonts/GillSans-Bold.svg#GillSans-Bold') format('svg');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Gill Sans';
-    src: url('../fonts/GillSans.eot');
-    src: url('../fonts/GillSans.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/GillSans.woff2') format('woff2'),
-    url('../fonts/GillSans.woff') format('woff'),
-    url('../fonts/GillSans.ttf') format('truetype'),
-    url('../fonts/GillSans.svg#GillSans') format('svg');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Gill Sans';
-    src: url('../fonts/GillSans-Light.eot');
-    src: url('../fonts/GillSans-Light.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/GillSans-Light.woff2') format('woff2'),
-    url('../fonts/GillSans-Light.woff') format('woff'),
-    url('../fonts/GillSans-Light.ttf') format('truetype'),
-    url('../fonts/GillSans-Light.svg#GillSans-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Locator';
-    src: url('../fonts/Locator-Black.eot');
-    src: url('../fonts/Locator-Black.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Locator-Black.woff2') format('woff2'),
-    url('../fonts/Locator-Black.woff') format('woff'),
-    url('../fonts/Locator-Black.ttf') format('truetype'),
-    url('../fonts/Locator-Black.svg#Locator-Black') format('svg');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Locator';
-    src: url('../fonts/Locator-Bold.eot');
-    src: url('../fonts/Locator-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Locator-Bold.woff2') format('woff2'),
-    url('../fonts/Locator-Bold.woff') format('woff'),
-    url('../fonts/Locator-Bold.ttf') format('truetype'),
-    url('../fonts/Locator-Bold.svg#Locator-Bold') format('svg');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Locator';
-    src: url('../fonts/Locator-Medium.eot');
-    src: url('../fonts/Locator-Medium.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/Locator-Medium.woff2') format('woff2'),
-    url('../fonts/Locator-Medium.woff') format('woff'),
-    url('../fonts/Locator-Medium.ttf') format('truetype'),
-    url('../fonts/Locator-Medium.svg#Locator-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
+$main-color: #8a5aa1;
+$main-color-light: #c97cd1;
 
 /* Defaults
 ------------------------------------------------------------ */
@@ -103,17 +26,11 @@ body {
     overflow-x: hidden;
 }
 
-body {
-    font-family: 'Gill Sans', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.625;
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Locator', sans-serif;
     line-height: 1 !important;
     font-weight: 900 !important;
+    text-shadow: 0 1px darkorchid;
 }
 
 h1 {
@@ -200,10 +117,11 @@ b, strong {
     font-size: 18px;
     color: var(--bs-white);
     text-transform: uppercase;
+    text-shadow: 0 1px darkorchid;
 }
 
 .nav-link:hover {
-    color: #1AA1ED;
+    color: #8a5aa1;
 }
 
 .cta-header span,
@@ -217,6 +135,7 @@ b, strong {
     color: #fff;
     text-align: center;
     padding-bottom: 30px;
+    text-shadow: 0 2px darkorchid;
 }
 
 .cta-header span,
@@ -231,11 +150,6 @@ b, strong {
     max-width: 160px;
     margin-right: 20px;
     padding-bottom: 30px;
-}
-
-.cta-header-locator label {
-    font-family: "Gill Sans", sans-serif;
-    color: #fff;
 }
 
 .cta-header-locator input[type="text"] {
@@ -284,11 +198,11 @@ b, strong {
     font-size: 18px;
     text-transform: uppercase;
     position: relative;
-    background: #1AA1ED;
+    background: #8a5aa1;
     color: #fff !important;
     text-decoration: none;
     padding: 5px 15px 5px 25px;
-    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 5px 6px rgba(201 124 209);
     border-radius: 3px;
 }
 
@@ -302,7 +216,7 @@ b, strong {
 .site-footer {
     font-size: 23px;
     color: #fff;
-    background-color: #000000;
+    background-color: #321f3b;
     position: relative;
 }
 
@@ -359,7 +273,7 @@ b, strong {
 #home-hero {
 
     &::after {
-        background-color: rgba(0, 0, 0, .45);
+        background-color: rgba(113, 60, 125, .38);
         content: "";
         height: 100%;
         left: 0;
@@ -371,12 +285,9 @@ b, strong {
     .wrap-grad {
         background: linear-gradient(135deg, rgba(231, 13, 123, .8), rgba(23, 168, 240, .8));
         bottom: 0;
-        -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
-        clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
         padding-top: 10px;
         position: absolute;
         width: 100%;
-        min-height: 310px;
         z-index: 1;
     }
 
@@ -395,7 +306,6 @@ b, strong {
         &::after {
             content: "";
             position: absolute;
-            background-color: rgba(0, 0, 0, 0.45);
             width: 100%;
             height: 100%;
             top: 0;
@@ -405,7 +315,7 @@ b, strong {
 }
 
 .site-page-banner {
-    background-image: linear-gradient(180deg, #56a7f7, #939fab);
+
     background-size: cover;
     overflow: hidden;
     display: flex;
@@ -433,7 +343,8 @@ b, strong {
 }
 
 #home-hero p > span {
-    color: #00A1ED;
+    color: $main-color;
+    text-shadow: #22172b 0px -2px 3px;
 }
 
 .mobile-form {
@@ -493,7 +404,7 @@ b, strong {
 
 #pills-tab.nav-pills .nav-link {
     font-size: 16px;
-    color: #1AA1ED;
+    color: #8a5aa1;
     border-radius: 0;
     text-transform: none;
     line-height: 1;
@@ -503,15 +414,15 @@ b, strong {
 
 #pills-tab.nav-pills .nav-link.active {
     color: #fff;
-    background-color: #1AA1ED;
+    background-color: #8a5aa1;
 }
 
 #pills-tab.nav-pills .nav-item {
     width: 100%;
     max-width: 133px;
     margin: 0 auto;
-    border: 2px solid #1AA1ED;
-    border-radius: 3px;
+    border: 2px solid #8a5aa1;
+    border-radius: 10px;
 }
 
 .col-img-bg {
@@ -556,7 +467,6 @@ b, strong {
 }
 
 #calculator {
-    background-image: url(../images/calculator-bg-img.webp);
     background-position: left center;
     background-repeat: no-repeat;
     background-color: rgba(226, 226, 226, 0.85);
@@ -595,9 +505,9 @@ b, strong {
 #v-pills-tab .nav-link.active,
 #accordionProcess .btn-link:not(.collapsed),
 #accordionService .btn-link:not(.collapsed) {
-    background-color: #1BA2EA;
+    background-color: $main-color;
     color: #fff;
-    border: 2px solid #1BA2EA;
+    border: 2px solid $main-color-light;
     box-shadow: 0 5px 6px rgba(0, 0, 0, 0.10);
 }
 
@@ -625,7 +535,6 @@ b, strong {
 }
 
 #faq {
-    background-image: url(../images/faq-image.webp);
     background-position: left center;
     padding: 0 0 140px;
     position: relative;
@@ -646,8 +555,8 @@ b, strong {
 }
 
 #accordion .card {
-    border: 2px solid #1BA2EA;
-    border-radius: 3px;
+    border: 2px solid $main-color;
+    border-radius: 65px;
 }
 
 #accordion .card-header {
@@ -671,12 +580,10 @@ b, strong {
     height: 0;
     border-left: 10.5px solid transparent;
     border-right: 10.5px solid transparent;
-    border-top: 12px solid #1BA2EA;
 }
 
 #accordion .card-header h5 a {
     text-decoration: none;
-    color: #1BA2EA;
     display: block;
     position: relative;
 }
@@ -686,7 +593,7 @@ b, strong {
 }
 
 .text-primary {
-    color: #1BA2EA !important;
+    color: $main-color!important;
 }
 
 .f-0 {
@@ -760,17 +667,12 @@ b, strong {
 }
 
 #testimonials .slider {
-    background: #00A1ED;
+    background: $main-color;
     padding: 44px;
 }
 
 #testimonials .slider img {
     margin: 0 auto 16px;
-}
-
-#testimonials .slider p:not(.h3) {
-    font-style: italic;
-    font-family: "Gill Sans", sans-serif;
 }
 
 #testimonials .slider .slick-arrow {
@@ -814,7 +716,6 @@ b, strong {
     font-size: 18px;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    font-family: "Gill Sans";
     font-weight: 700 !important;
 }
 
@@ -825,12 +726,6 @@ b, strong {
 #Privacy-Content ~ #footer-schedule,
 #Terms-Content ~ #footer-schedule {
     display: none !important;
-}
-
-#Terms-Content h3 {
-    font-size: 18px;
-    font-weight: 700 !important;
-    font-family: "Gill Sans";
 }
 
 #Terms-Content {
@@ -937,7 +832,6 @@ b, strong {
 
 .before-header-mobile .tel-num {
     font-weight: 700;
-    font-family: 'Locator';
     color: #fff;
     text-decoration: none;
     display: inline-block;
@@ -1044,7 +938,6 @@ b, strong {
 
 #footer-schedule #schedule form {
     border-image-source: linear-gradient(to right, #1BA2EA, #DE137A) !important;
-    border: 6px solid;
     border-image-slice: 1;
     border-width: 3px;
     padding: 45px 0;
@@ -1105,7 +998,6 @@ b, strong {
         }
 
         h2 {
-            font-family: "Gill Sans", sans-serif;
             font-weight: 700 !important;
             color: #DC157B;
             line-height: 1.2 !important;
@@ -1135,22 +1027,7 @@ b, strong {
     padding: 60px 0;
 }
 
-#location-map .container-fluid {
-    padding: 0;
-}
 
-#location-map .loc-map iframe {
-    width: 100%;
-    min-height: 562px;
-}
-
-#location-map {
-    border-image-source: linear-gradient(to right, #DE137A, #1BA2EA) !important;
-    border-top: 3px solid;
-    border-image-slice: 1;
-
-
-}
 
 /* Media Queries
 -------------------------------------------------- */
@@ -1453,7 +1330,6 @@ b, strong {
     .navbar-toggler-icon::before {
         content: "\f0c9";
         font-weight: 900;
-        font-family: "Font Awesome 5 Free";
         color: #fff;
         margin-top: 5px;
         display: block;
@@ -1597,7 +1473,6 @@ b, strong {
     }
 
     #footer-schedule #schedule button {
-        width: calc(100% - 50px);
         width: 100%;
         margin-top: 26px;
     }
@@ -1871,7 +1746,7 @@ b, strong {
 
     #footer-schedule #schedule-form {
         display: block;
-        padding: 25px 22 55px;
+        padding: 25px 22px 55px;
     }
     #footer-schedule #schedule form .form-group {
         max-width: 100%;
@@ -2080,7 +1955,7 @@ form.loading button[type="submit"] {
 }
 
 .background-blue {
-    background-color: $blue-color;
+    background-color: $main-color;
 }
 
 
@@ -2185,7 +2060,7 @@ form.loading button[type="submit"] {
 #faq {
     h5 {
         font-weight: normal !important;
-        color: #00A1ED;
+        color: $main-color;
         font-size: 20px !important;
     }
 
@@ -2199,10 +2074,6 @@ form.loading button[type="submit"] {
     .fas {
         font-size: xxx-large;
     }
-}
-
-.blue-color {
-    color: $blue-color
 }
 
 @include media-breakpoint-down(sm) {
@@ -2496,4 +2367,8 @@ form.loading button[type="submit"] {
     background-size: cover;
     color: #fff;
     font-size: 24px;
+}
+.colour-pink {
+    color: pink;
+    text-shadow: 0 3px 3px;
 }

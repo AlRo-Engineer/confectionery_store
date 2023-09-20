@@ -56,25 +56,4 @@ When you taste our sweets, you're tasting Bree's journey. You're experiencing he
 
     <!-- About Us Content END -->
 
-    <section id="quote" class="quote">
-        <picture>
-            <img src="{{Vite::asset('resources/images/quotation-marks-left.webp')}}" alt="comma"
-                 class="comma left"/>
-        </picture>
-        <div class="container">
-            <div class="row">
-                <div class="text-container">
-                    <p class="text-white fs-4 fw-bold">Always treat your employees exactly as you want them to treat
-                        your best customers.</p>
-                    <div class="small-separator text-center"></div>
-                    <p class="text-right text-white fs-5 fw-bold sm-text">STEPHEN R. COVEY</p>
-                </div>
-            </div>
-        </div>
-        <picture>
-            <img src="{{Vite::asset('resources/images/quotation-marks-right.webp')}}" alt="comma"
-                 class="comma right"/>
-        </picture>
-    </section>
-
 @stop
