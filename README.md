@@ -1,5 +1,5 @@
 # Online store selling confectionery
-
+Capstone Project
 ## Overview
 
 This project is developed for a start-up business with a standard set of features. 
@@ -8,7 +8,7 @@ This project is developed for a start-up business with a standard set of feature
 
 - Shopping cart: Users can add items to the cart, change the number of selected items and remove items from the cart.
 
-- Ordering System: After adding items to the cart, customers can place an order by providing their contact information. The order information is then stored in the database for further processing.
+- Ordering System: After adding items to the cart, customers can place an order by providing their contact information. The order information is then stored in the database for further processing. Due to the fact that the online confectionery store is a small start-up enterprise, it was decided to simplify the shopping process for our potential customers. Guest ordering is used instead of mandatory authorization and account creation;
 
 - User Interface: The website interface is simple and intuitive, using a modern and stylish design using Bootstrap.
 
