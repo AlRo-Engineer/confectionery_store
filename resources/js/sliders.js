@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         adaptiveHeight: true
     });
 
-    $('.about-pictures-slider').slick({
+    $('.teams-pictures-slider').slick({
         slidesToShow: 3,
         arrows: true,
         prevArrow: $('.about-team .prev'),
@@ -42,31 +42,4 @@ document.addEventListener("DOMContentLoaded", () => {
         ]
     });
 
-    $('.logo-pictures-slider').slick({
-        slidesToShow: 3,
-        arrows: true,
-        prevArrow: $('.logo-gallery .prev'),
-        nextArrow: $('.logo-gallery .next'),
-        fade: false,
-        responsive: [
-            {
-                breakpoint: 575,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    arrows: true,
-                    dots: false
-                }
-            },
-            {
-                breakpoint: 991,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 1,
-                    arrows: true,
-                    dots: false
-                }
-            }
-        ]
-    });
 })

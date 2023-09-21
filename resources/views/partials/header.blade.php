@@ -1,12 +1,5 @@
 <?php $formUniqueID = fn() => bin2hex(random_bytes(10))?>
 
-<div class="before-header-mobile fullwidth-row">
-    <div class="container-fluid">
-        <div class="cta-header-mobile hide-desktop">
-            <a href="tel:1833-000000" class="tel-num">(833) 93-Call Bree</a>
-        </div>
-    </div>
-</div>
 <div class="site-header">
     <div class="container">
         <div class="row">

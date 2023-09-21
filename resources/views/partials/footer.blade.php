@@ -39,7 +39,6 @@
             </div>
             <div class="copyright">
                 <p>Confectionery Store BVD <?= date('Y')?>. All rights reserved</p>
-                <p><a href="javascript:void(0);">Privacy Policy</a> <a href="javascript:void(0);">Terms of Use</a></p>
             </div>
         </div>
     </div>

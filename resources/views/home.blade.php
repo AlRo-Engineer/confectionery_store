@@ -17,8 +17,8 @@
                         classic cakes to inventive sweets, every morsel is a testament to our unwavering commitment to
                         quality, taste, and artisanal flair. Embark on a journey of sugar-coated bliss, as we bring to
                         you the best of tradition, innovation, and the magic of flavors. Dive in and relish the goodness
-                        of our mouth-watering treats.
-                        <span class="underlined"><strong>After all, life is a little sweeter here.</strong></span>
+                        of our mouth-watering treats.<br>
+                        <span><strong>After all, life is a little sweeter here.</strong></span>
                     </p>
                 </div>
                 <div class="col-md-3"></div>
@@ -189,117 +189,6 @@
                 </div>
             </div>
 
-
-            <div class="process-accordion mt-5 d-none d-md-none d-sm-block">
-                <div class="accordion" id="accordionService">
-                    <div class="card">
-                        <div class="card-header" id="headingOne">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#serviceOne" aria-expanded="true" aria-controls="serviceOne">
-                                    Cakes
-                                </button>
-                            </h2>
-                        </div>
-                        <div id="serviceOne" class="collapse show" aria-labelledby="headingOne"
-                             data-bs-parent="#accordionService">
-                            <div class="card-body">
-                                <div class="row align-items-center">
-                                    <div class="col-md-6 text-center mb-3">
-                                        <picture>
-                                            <img src="{{Vite::asset('resources/images/our-products-cakes.png')}}"
-                                                 alt="SPRAY FOAM iNSULATiON">
-                                        </picture>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="tab-content-wrap">
-                                            <h3 class="h3">spray_foam_title </h3>
-                                            <div class="text-content-wrap">
-                                                <p>spray_foam_text </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingTwo">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#serviceTwo" aria-expanded="false" aria-controls="serviceTwo">
-                                    Pastries
-                                </button>
-                            </h2>
-                        </div>
-                        <div id="serviceTwo" class="collapse" aria-labelledby="headingTwo"
-                             data-bs-parent="#accordionService">
-                            <div class="card-body">
-                                <div class="row align-items-center">
-                                    <div class="col-md-6 text-center mb-3">
-                                        <picture>
-                                            <img src="{{Vite::asset('resources/images/our-products-pastries.png')}}"
-                                                 alt="Services InsulationN">
-                                        </picture>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="tab-content-wrap">
-                                            <h3 class="h3">blown_in_title </h3>
-                                            <div class="text-content-wrap">
-                                                <p>blown_in_text </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingThree">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#serviceThree" aria-expanded="false"
-                                        aria-controls="serviceThree">
-                                    Candy bar
-                                </button>
-                            </h2>
-                        </div>
-                        <div id="serviceThree" class="collapse" aria-labelledby="headingThree"
-                             data-bs-parent="#accordionService">
-                            <div class="card-body">
-                                <div class="row align-items-center">
-                                    <div class="col-md-6 text-center mb-3">
-                                        <picture>
-                                            <img src="{{Vite::asset('resources/images/our-products-candy-bar.png')}}"
-                                                 alt="Residential Attic Retrofit">
-                                        </picture>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="tab-content-wrap">
-                                            <h3 class="h3">residential_attic_title </h3>
-                                            <div class="text-content-wrap">
-                                                <p>residential_attic_text </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingFour">
-                            <h2 class="mb-0">
-                                <button class="btn btn-link collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#serviceFour" aria-expanded="false" aria-controls="serviceFour">
-                                    Candy Set
-                                </button>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
         </div>
     </section><!-- Our Services END -->
 
@@ -316,7 +205,7 @@
                 </div>
             </div>
             <div class="process-tab mt-5">
-                <div class="d-flex align-items-start">
+                <div class="d-flex align-items-start d-lg-block d-md-block d-none">
                     <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
                          aria-orientation="vertical">
                         <button class="nav-link active" id="v-pills-1-tab" data-bs-toggle="pill"
@@ -699,7 +588,7 @@
         </div>
     </section>
 
-    <section id="why-ifoam">
+    <section id="why-bree">
         <div class="container">
             <div class="row pt-0 pb-4">
                 <div class="col-md-12 text-center">
