@@ -54,7 +54,7 @@ To get started with the project, follow these steps:
     php artisan serve
     ```
 
-After running these commands, you should be able to access the application at `http://localhost:8000`.
+After running these commands, you should be able to access the application on your local environment.
 
 ## Contributing
 
