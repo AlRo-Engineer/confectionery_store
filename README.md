@@ -18,3 +18,59 @@ In the course of work on the project, all the set tasks were successfully solved
 
 - PHP
 - Laravel
+
+# Installation
+
+To get started with the project, follow these steps:
+
+1. **Clone the repository**:
+    ```bash
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    composer install
+    ```
+
+3. **Copy the example environment file and configure your environment variables**:
+    ```bash
+    cp .env.example .env
+    ```
+
+4. **Generate an application key**:
+    ```bash
+    php artisan key:generate
+    ```
+
+5. **Run the database migrations**:
+    ```bash
+    php artisan migrate
+    ```
+
+6. **Start the development server**:
+    ```bash
+    php artisan serve
+    ```
+
+After running these commands, you should be able to access the application at `http://localhost:8000`.
+
+## Usage
+
+Once the server is running, you can use the following features:
+
+- Browse the product catalog and add items to your cart.
+- Adjust the quantity of items in your cart or remove items if needed.
+- Proceed to checkout and provide your contact information to place an order.
+
+## Contributing
+
+If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature-name`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/your-feature-name`).
+5. Open a pull request.
+
