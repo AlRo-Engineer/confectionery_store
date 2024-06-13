@@ -56,14 +56,6 @@ To get started with the project, follow these steps:
 
 After running these commands, you should be able to access the application at `http://localhost:8000`.
 
-## Usage
-
-Once the server is running, you can use the following features:
-
-- Browse the product catalog and add items to your cart.
-- Adjust the quantity of items in your cart or remove items if needed.
-- Proceed to checkout and provide your contact information to place an order.
-
 ## Contributing
 
 If you would like to contribute to this project, please follow these steps:
