@@ -1,5 +1,5 @@
 # Online store selling confectionery
-Capstone Project
+Graduation work
 ## Overview
 
 This project is developed for a start-up business with a standard set of features. 
